@@ -1,0 +1,65 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: monospace;
+  text-align: center;
+}
+
+
+img {
+  width: 20px;
+  height: 20px;
+
+}
+
+
+
+.score {
+  margin-top: 40px;
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+table {
+  margin: auto;
+  margin-top: 20px;
+}
+
+td {
+  width: 40px;
+  background: black;
+  height: 30px;
+  box-shadow: inset 0 0 3px #FFF323;
+
+}
+
+
+.modal {
+  display: none;
+  position: absolute;
+  top: 20px;
+  right: 50px;
+  width: 250px;
+  height: 150px;
+
+}
+
+.modal button {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  border: none;
+  width: 70px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.modal button:hover {
+  background-color: white;
+  color: black;
+}
